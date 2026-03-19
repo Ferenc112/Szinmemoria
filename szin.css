@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.game-board{
+    display:flex;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.piros{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.kek{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sarga{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.zold{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gomb{
+    margin-top: 25px;
+    background-color: white;
+    width: 75px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
